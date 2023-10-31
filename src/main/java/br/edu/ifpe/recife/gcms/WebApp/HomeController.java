@@ -13,7 +13,14 @@ public class HomeController {
 
 	@RequestMapping("/maiara")
 	public @ResponseBody String greetingMaiara() {
-		return "Hello, Maiara!?!?";
+		return "Hello, Maiara!";
 	}
+
+
+	@RequestMapping("/teste")
+	public @ResponseBody String test() {
+		return "Isso é um teste";
+	}
+	
 	
 }
