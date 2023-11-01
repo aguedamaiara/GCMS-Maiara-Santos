@@ -16,11 +16,6 @@ public class HomeController {
 		return "Hello, Maiara!";
 	}
 
-
-	@RequestMapping("/teste")
-	public @ResponseBody String test() {
-		return "Testando";
-	}
 	
 	
 }
