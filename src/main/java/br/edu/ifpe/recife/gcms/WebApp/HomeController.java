@@ -15,7 +15,8 @@ public class HomeController {
 
 	@RequestMapping("/maiara")
 	public @ResponseBody String greetingMaiara() {
-		return "Hello, Maiara!";
+		//return "Hello, Maiara!";
+		return "Hello, Maiara?"; // quebrando o build parte 2
 	}
 	
 }
