@@ -8,19 +8,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HomeController {
 	@RequestMapping("/")
 	public @ResponseBody String greeting() {
+
 		return "Hello, World";
 	}
 
+
 	@RequestMapping("/maiara")
 	public @ResponseBody String greetingMaiara() {
-		return "Hello, Maiara!";
-	}
+		//return "Hello, Maiara!";
+		return "Hello, Maiara?"; //quebrando o build pratica 6
 
-
-	@RequestMapping("/teste")
-	public @ResponseBody String test() {
-		return "Testando";
-	}
-	
+		}
 	
 }
