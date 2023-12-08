@@ -18,8 +18,9 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    container:
+      image: docker://maiaraagueda/gcms_maiara:image-docker
 
     steps:
     - uses: actions/checkout@v3
